@@ -1,0 +1,5 @@
+numpy==1.24.4
+pandas==2.0.3
+sklearn==2.0.3
+xgboost==1.6.2
+joblib==1.3.2
