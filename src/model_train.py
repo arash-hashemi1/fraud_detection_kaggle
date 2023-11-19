@@ -23,8 +23,6 @@ def train(X_train, y_train, model_name):
 
     if model_name == 'dummy':
         model = DummyClassifier(strategy="most_frequent")
-    elif model_name == 'knn':
-        model = KNeighborsClassifier(n_neighbors=3)
     elif model_name == 'random_forest':
         model = RandomForestClassifier()
     elif model_name == 'bernoulli_naive_bayes':
