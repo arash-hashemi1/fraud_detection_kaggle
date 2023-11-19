@@ -1,0 +1,2 @@
+- download data from https://www.kaggle.com/competitions/ieee-fraud-detection/data
+- upload train_transaction.csv and test_transaction.csv to data folder.
