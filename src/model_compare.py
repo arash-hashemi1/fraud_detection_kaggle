@@ -25,7 +25,6 @@ def compare():
 
 
     model_list = ['dummy',
-                'knn',
                 'random_forest',
                 'bernoulli_naive_bayes',
                 'gaussian_naive_bayes',
