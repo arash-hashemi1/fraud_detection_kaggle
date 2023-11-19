@@ -6,8 +6,9 @@ from model_eval import eval
 from model_compare import compare
 import argparse
 
+
 parser = argparse.ArgumentParser(description='train, eval or compare models along with model name')
-parser.add_argument('--run_type', type=str, default='train', help='train, eval or compare')
+parser.add_argument('--run_type', type=str, default='eval', help='train, eval or compare')
 parser.add_argument('--model_name', type=str, default='xgboost', help='model name')
 args = parser.parse_args()
 
@@ -15,6 +16,8 @@ run_type = args.run_type
 model_name = args.model_name
 
 print('loading data...')
+
+
 transaction = data_processing('data/train_transaction.csv')
 identity = data_processing('data/train_identity.csv')
 print('data loaded...')
