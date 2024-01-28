@@ -10,7 +10,7 @@ Various machine learning methods are tested for solving this issue:
 - Multilayered perceptron
 - XGBOOST
 
-Xgboost provides the best accuracy on the test set. Error analysis has been conducted for this model.
+XGBOOST provides the best accuracy on the test set. Error analysis has been conducted for this model.
 
 
 # How to Run:
