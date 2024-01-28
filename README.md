@@ -1,4 +1,4 @@
-# fraud_detection_kaggle
+# Fraud Detection (Kaggle)
 This project tackles the Kaggle challenge Credit Card Fraud Detection:
 https://www.kaggle.com/c/ieee-fraud-detection/discussion/101203
 
