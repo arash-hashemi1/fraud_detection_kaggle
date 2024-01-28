@@ -15,6 +15,16 @@ Upon evaluation on test data, the XGBOOST model demonstrates the highest accurac
 ![image](https://github.com/arash-hashemi1/fraud_detection_kaggle/assets/48169508/bb2567ea-713f-4873-9b3a-dd5b7391f852)
 
 
+Table of contents
+=================
+
+- [Feature Engineering](#feature-extraction)
+- [Preprocessing ](#preprocessing)
+- [Model Comparison](#model-comparison)
+- [How to Run](#how-run)
+
+
+
 # Feature Engineering
 
 Upon reviewing the available data, the following features were selected for training as they appeared to be the most relevant for the task of transaction fraud detection. These features encompass both numerical and categorical values.
@@ -50,7 +60,7 @@ The trained models undergo evaluation using the testing data, and the subsequent
 | dummy                   | 0.918              | 0.0               |
 
 
-# How to Run:
+# How to Run
 - Clone the repository and cd into it.
 - Download the train_transacation.csv and test_transaction.csv files from https://www.kaggle.com/competitions/ieee-fraud-detection/data and add them to the data folder.
 - Install the requirements by running pip install -r requirements.txt.
