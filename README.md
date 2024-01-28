@@ -12,6 +12,18 @@ Various machine learning methods are tested for solving this issue:
 
 XGBOOST provides the best accuracy on the test set. Error analysis has been conducted for this model.
 
+# Model Comparison
+
+The trained models undergo evaluation using the testing data, and the subsequent results are illustrated below. Amongst the models, the XGBOOST model demonstrates the highest accuracy and f1 score.
+
+| Model                   | Score              | F1                |
+|-------------------------|--------------------|-------------------|
+| xgboost                 | 0.965              | 0.748             |
+| random_forest           | 0.962              | 0.712             |
+| bernoulli_naive_bayes   | 0.748              | 0.292             |
+| gaussian_naive_bayes    | 0.114              | 0.152             |
+| dummy                   | 0.918              | 0.0               |
+
 
 # How to Run:
 - Clone the repository and cd into it.
