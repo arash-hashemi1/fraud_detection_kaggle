@@ -8,7 +8,7 @@ Various machine learning methods are tested for solving this issue:
 - Bernoulli naive bayes
 - Random forest
 - Multilayered perceptron
-- xgboost
+- XGBOOST
 
 Xgboost provides the best accuracy on the test set. Error analysis has been conducted for this model.
 
