@@ -10,7 +10,12 @@ Various machine learning methods are tested for solving this issue:
 - Multilayered perceptron
 - XGBOOST
 
-XGBOOST provides the best accuracy on the test set. Error analysis has been conducted for this model.
+Upon evaluation on test data, the XGBOOST model demonstrates the highest accuracy.
+
+
+
+# Preprocessing 
+Data cleaning is performed on both the training and test datasets. Relevant features are extracted from the data frames, and missing values are substituted with a random choice from the available values. Additionally, categorical feature columns undergo a OneHot encoding transformation.
 
 # Model Comparison
 
