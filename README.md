@@ -1,5 +1,5 @@
 # Fraud Detection (Kaggle)
-This project tackles the Kaggle challenge Credit Card Fraud Detection:
+This project tackles the Kaggle challenge Credit Card Transaction Fraud Detection:
 https://www.kaggle.com/c/ieee-fraud-detection/discussion/101203
 
 Various machine learning methods are tested for solving this issue:
@@ -12,6 +12,26 @@ Various machine learning methods are tested for solving this issue:
 
 Upon evaluation on test data, the XGBOOST model demonstrates the highest accuracy.
 
+![image](https://github.com/arash-hashemi1/fraud_detection_kaggle/assets/48169508/bb2567ea-713f-4873-9b3a-dd5b7391f852)
+
+
+# Feature Engineering
+
+Upon reviewing the available data, the following features were selected for training as they appeared to be the most relevant for the task of transaction fraud detection. These features encompass both numerical and categorical values.
+
+| Feature                | Description                                                                                      |
+|------------------------|--------------------------------------------------------------------------------------------------|
+| TransactionDT          | Timedelta from a given reference datetime (not an actual timestamp)                               |
+| TransactionAMT         | Transaction payment amount in USD                                                                |
+| ProductCD              | Product code, representing the product for each transaction                                       |
+| card1 - card6          | Payment card information, including card type, card category, issue bank, country, etc.            |
+| addr                   | Address                                                                                          |
+| dist                   | Distance                                                                                         |
+| P_ and (R__) emaildomain | Purchaser and recipient email domain                                                           |
+| C1-C14                 | Counting features, such as how many addresses are found to be associated with the payment card, etc. The actual meaning is masked. |
+| D1-D15                 | Timedelta features, representing days between previous transactions, etc.                          |
+| M1-M9                  | Match features, such as names on card and address, etc.                                           |
+| Vxxx                   | Vesta engineered rich features, including ranking, counting, and other entity relations.         |
 
 
 # Preprocessing 
