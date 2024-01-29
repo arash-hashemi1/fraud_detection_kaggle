@@ -1,4 +1,5 @@
 # Fraud Detection (Kaggle)
+<p align="justify">
 This project tackles the Kaggle challenge Credit Card Transaction Fraud Detection:
 https://www.kaggle.com/c/ieee-fraud-detection/discussion/101203
 
@@ -12,6 +13,8 @@ Different machine learning approaches are experimented with to address this chal
 - XGBOOST
 
 Upon evaluation on test data, the XGBOOST model demonstrates the highest accuracy.
+
+</p>
 
 ![image](https://github.com/arash-hashemi1/fraud_detection_kaggle/assets/48169508/bb2567ea-713f-4873-9b3a-dd5b7391f852)
 
