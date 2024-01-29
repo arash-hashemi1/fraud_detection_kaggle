@@ -32,7 +32,7 @@ Table of contents
 
 # Feature Engineering
 
-Upon reviewing the available data, the following features are selected for training as they appeared to be the most relevant for the task of transaction fraud detection. These features encompass both numerical and categorical values.
+After reviewing the available data, the following features are selected for training as they appeared to be the most relevant for the task of transaction fraud detection. These features encompass both numerical and categorical values.
 
 | Feature                | Description                                                                                      |
 |------------------------|--------------------------------------------------------------------------------------------------|
