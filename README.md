@@ -2,7 +2,8 @@
 This project tackles the Kaggle challenge Credit Card Transaction Fraud Detection:
 https://www.kaggle.com/c/ieee-fraud-detection/discussion/101203
 
-Various machine learning methods are tested for solving this issue:
+Different machine learning approaches are experimented with to address this challenge. A dummy classifier is deliberately incorporated as a baseline to assess the training of the models. The selection of these models is based on their common application in classification problems. Specifically, random forest and XGBOOST are chosen for their ability to handle missing values, resilience to variable input scales, and effectiveness in mitigating overfitting.
+
 - Dummy classifier 
 - Gaussian naive Bayes
 - Bernoulli naive bayes
@@ -27,7 +28,7 @@ Table of contents
 
 # Feature Engineering
 
-Upon reviewing the available data, the following features were selected for training as they appeared to be the most relevant for the task of transaction fraud detection. These features encompass both numerical and categorical values.
+Upon reviewing the available data, the following features are selected for training as they appeared to be the most relevant for the task of transaction fraud detection. These features encompass both numerical and categorical values.
 
 | Feature                | Description                                                                                      |
 |------------------------|--------------------------------------------------------------------------------------------------|
@@ -45,7 +46,7 @@ Upon reviewing the available data, the following features were selected for trai
 
 
 # Preprocessing 
-Data cleaning is conducted on both the training and test datasets, involving the extraction of pertinent features from the data frames. Numerous columns contain missing values, and to address this, a random selection from the available values is employed for replacement, thereby preserving the original column distribution. Furthermore, categorical feature columns undergo a OneHot encoding transformation.
+Data cleaning is conducted on both the training and test datasets, involving the extraction of pertinent features from the data frames. Numerous columns contain missing values, and to address this, a random selection from the available values is employed for replacement, thereby preserving the original column distribution. Furthermore, categorical feature columns are transformed using OneHot encoding.
 
 # Model Comparison
 
