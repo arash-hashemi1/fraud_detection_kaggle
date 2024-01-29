@@ -45,7 +45,7 @@ Upon reviewing the available data, the following features were selected for trai
 
 
 # Preprocessing 
-Data cleaning is performed on both the training and test datasets. Relevant features are extracted from the data frames, and missing values are substituted with a random choice from the available values. Additionally, categorical feature columns undergo a OneHot encoding transformation.
+Data cleaning is conducted on both the training and test datasets, involving the extraction of pertinent features from the data frames. Numerous columns contain missing values, and to address this, a random selection from the available values is employed for replacement, thereby preserving the original column distribution. Furthermore, categorical feature columns undergo a OneHot encoding transformation.
 
 # Model Comparison
 
