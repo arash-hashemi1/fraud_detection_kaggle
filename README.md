@@ -1,7 +1,7 @@
 # Fraud Detection (Kaggle)
 
-This project tackles the Kaggle challenge Credit Card Transaction Fraud Detection:
-https://www.kaggle.com/c/ieee-fraud-detection/discussion/101203
+This project tackles the Kaggle challenge Credit Card Transaction Fraud Detection [Link](https://www.kaggle.com/c/ieee-fraud-detection/discussion/101203)
+
 
 <p align="justify">
 Different machine learning approaches are experimented with to address this challenge. A dummy classifier is deliberately incorporated as a baseline to assess the training of the models. The selection of these models is based on their common application in classification problems. Specifically, random forest and XGBOOST are chosen for their ability to handle missing values, resilience to variable input scales, and effectiveness in mitigating overfitting.
